@@ -121,12 +121,7 @@
                 });
             }
             else {
-                FBInstant.initializeAsync().then(function () {
-                    if (typeof VConsole !== 'undefined') {
-                        window.vConsole = new VConsole();
-                    }
-                    boot();
-                });
+                 
             }
         });
     }
